@@ -3,8 +3,8 @@ import time
 from Adafruit_IO import Client, Feed, RequestError
 
 run_count = 1
-ADAFRUIT_IO_USERNAME = "Sjeefen"
-ADAFRUIT_IO_KEY = "aio_nvdT30ogm9qP7iB3lwpFSAUGOBAW"
+ADAFRUIT_IO_USERNAME = "xxx"
+ADAFRUIT_IO_KEY = "xxx"
 
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 board = pyfirmata.Arduino("/dev/ttyACM0")
