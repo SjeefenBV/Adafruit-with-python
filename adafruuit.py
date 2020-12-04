@@ -17,7 +17,7 @@ digital_output = board.get_pin("d:13:o")
 analog_input = board.get_pin("a:0:i")
 
 ADAFRUIT_IO_USERNAME = "Sjeefen"
-ADAFRUIT_IO_KEY = "aio_uFgR74nptWJDPmdVgBVxU8T8ci2f"
+ADAFRUIT_IO_KEY = "aio_xxxxxxxxxx"
 
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
